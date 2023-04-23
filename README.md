@@ -15,4 +15,3 @@ All the files are to be compiled on Ubuntu 20.04 LTS using gcc, using the option
 Include the "main.h" header file on the functions using the _printf()
 This is a group project by  (github.com/elyse502) and Samuel IMANANIYOGAKIZA
 
-
