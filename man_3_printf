@@ -3,7 +3,7 @@
 .SH NAME
 _printf - format and write a string, character, or integer to stdout
 .SH SYNOPSIS
-#include "holberton.h"
+#include "main.h"
 .br
 #include <stdarg.h>
 .br
