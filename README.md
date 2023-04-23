@@ -9,7 +9,7 @@ The _printf() function produces output according to a format which is described 
 * %d: Prints integers.
 * %i: Prints integers.
 * %b: Prints the binary representation of an unsigned decimal.
-* %u: Prints unsigned integers
+* %u: Prints unsigned integers.
 * %x: Prints the hexadecial representation of an unsigned decimal in lowercase letters.
 * %X:Prints the hexadecial representation of an unsigned decimal in uppercase letters.
 * %r: Prints a reversed string.
@@ -17,7 +17,7 @@ The _printf() function produces output according to a format which is described 
 ### Usage:
 
 * All the files are to be compiled on Ubuntu 22.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-* Include the "main.h" header file on the functions using the _printf()
+* Include the "main.h" header file on the Functions using the _printf()!.
 
 
 This is a group project by NIYIBIZI Elysée(github.com/elyse502) and Samuel IMANANIYOGAKIZA.
