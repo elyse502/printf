@@ -33,7 +33,8 @@ int _printf(const char *format, ...)
 				else if (format[index + 1] != '\0')
 				{
 					o = get_func(format[index + 1]);
-					count += (o ? o(ar_list) : _putchar(format[index]) + _putchar(format[index + 1]));
+					count += (o ? o(ar_list) : _putchar(format[index]) +
+						_putchar(format[index + 1]));
 					index++;
 				}
 			}
