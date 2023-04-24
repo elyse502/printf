@@ -20,4 +20,4 @@ The _printf() function produces output according to a format which is described 
 * Include the "main.h" header file on the Functions using the _printf()!.
 
 
-This is a group project by NIYIBIZI Elysée(https://github.com/elyse502) and Samuel IMANANIYOGAKIZA(github.com/GAKIZA).
+This is a group project by NIYIBIZI Elysée(https://github.com/elyse502) and Samuel IMANANIYOGAKIZA(https://github.com/GAKIZA).
