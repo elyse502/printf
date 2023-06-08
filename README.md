@@ -17,6 +17,8 @@ The _printf() function produces output according to a format which is described 
 * %X:Prints the hexadecial representation of an unsigned decimal in uppercase letters.
 * %r: Prints a reversed string.
 
+![printf](https://github.com/elyse502/printf/assets/125453474/7af45e4f-c2d7-4dcc-a7e6-230955a4518b)
+
 ### Usage:
 
 * All the files are to be compiled on Ubuntu 22.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
