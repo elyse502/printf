@@ -22,6 +22,7 @@ The _printf() function produces output according to a format which is described 
 * All the files are to be compiled on Ubuntu 22.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 * Include the "main.h" header file on the Functions using the _printf()!.
 
+More info on our blog [here](https://en.wikipedia.org/wiki/Printf#:~:text=%22printf%22%20is%20the%20name%20of,parsing).
 
 This is a group project by NIYIBIZI Elysée | [Github](https://github.com/elyse502) and Samuel IMANANIYOGAKIZA | [Github](https://github.com/GAKIZA).
 
