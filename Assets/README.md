@@ -38,3 +38,10 @@ Upon successful return, `_printf` returns the number of characters printed (excl
 
 ## Format of the Argument String
 The `format` string argument is a constant character string composed of zero or more directives: ordinary characters (not `%`) which are copied unchanged to the output stream; and conversion specifications, each of which results in fetching zero or more subsequent arguments. Conversion specification is introduced by the character `%` and ends with a conversion specifier. In between the `%` character and conversion specifier, there may be (in order) zero or more _flags_, an optional minimum _field width___, an optional precision and an optional _length_ modifier. The arguments must correspond with the conversion specifier, and are used in the order given.
+
+# Concepts
+_For this project, we expect you to look at these concepts:_
+*[ Group Projects](https://intranet.alxswe.com/concepts/111)
+* [Pair Programming - How To](https://intranet.alxswe.com/concepts/121)
+* [Flowcharts](https://intranet.alxswe.com/concepts/130)
+* [Technical Writing](https://intranet.alxswe.com/concepts/225)
