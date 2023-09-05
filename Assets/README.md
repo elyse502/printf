@@ -252,12 +252,21 @@ Of course! You’re encouraged to share them with staff and peers as well. If yo
 * Keeping a devblog for big projects is a great way to document processes, successes, failures, and to-dos.
 * If you find a framework, SDK, API, etc. has limited or confusing documentation, write a tutorial to help others with the problems that you’ve encountered.
 
+# Background Context
+Write your own `printf` function.
 
+![printf](https://github.com/elyse502/printf/assets/125453474/644c33e9-99b4-4805-9291-64dd02017393)
 
+^ _In this picture, [`Kris`](https://twitter.com/i/flow/login?redirect_after_login=%2Fkrisbredemeier), and [`Jul`](https://twitter.com/i/flow/login?redirect_after_login=%2Fcyrjulien)_
 
+# Resources🏗️
+### Read or watch:
+* [Secrets of printf](https://www.academia.edu/10297206/Secrets_of_printf_)
+* **Group Projects** concept page (_Don’t forget to read this_)
+* **Flowcharts** concept page
 
-
-
+#### man or help:
+* `printf (3)`
 
 
 
