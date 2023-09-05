@@ -373,11 +373,95 @@ A function that produces output according to a format.
     * `c`
     * `s`
     * `%`
-You don’t have to reproduce the buffer handling of the C library `printf` function
-You don’t have to handle the flag characters
-You don’t have to handle field width
-You don’t have to handle precision
-You don’t have to handle the length modifiers
+* You don’t have to reproduce the buffer handling of the C library `printf` function
+* You don’t have to handle the flag characters
+* You don’t have to handle field width
+* You don’t have to handle precision
+* You don’t have to handle the length modifiers
+
+## 1. Education is when you read the fine print. Experience is what you get if you don't: [printf](https://github.com/elyse502/printf)
+Handle the following conversion specifiers:
+* `d`
+* `i`
+* You don’t have to handle the flag characters
+* You don’t have to handle field width
+* You don’t have to handle precision
+* You don’t have to handle the length modifiers
+
+## 2. With a face like mine, I do better in print: [printf](https://github.com/elyse502/printf)
+Handle the following custom conversion specifiers:
+* `b`: the unsigned int argument is converted to binary
+```
+alex@ubuntu:~/c/printf$ cat main.c
+#include "main.h"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+    _printf("%b\n", 98);
+    return (0);
+}
+alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c
+alex@ubuntu:~/c/printf$ ./a.out
+1100010
+alex@ubuntu:~/c/printf$
+```
+## 3. What one has not experienced, one will never understand in print: [printf](https://github.com/elyse502/printf)
+Handle the following conversion specifiers:
+* `u`
+* `o`
+* `x`
+* `X`
+* You don’t have to handle the flag characters
+* You don’t have to handle field width
+* You don’t have to handle precision
+* You don’t have to handle the length modifiers
+
+## 4. Nothing in fine print is ever good news: [printf](https://github.com/elyse502/printf)
+Use a local buffer of 1024 chars in order to call `write` as little as possible.
+
+## 5. My weakness is wearing too much leopard print: [printf](https://github.com/elyse502/printf)
+Handle the following custom conversion specifier:
+* `S` : prints the string.
+* Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: `\x`, followed by the ASCII code value in hexadecimal (upper case - always 2 characters)
+```
+alex@ubuntu:~/c/printf$ cat main.c
+#include "main.h"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+    _printf("%S\n", "Best\nSchool");
+    return (0);
+}
+alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c
+alex@ubuntu:~/c/printf$ ./a.out
+Best\x0ASchool
+alex@ubuntu:~/c/printf$
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
