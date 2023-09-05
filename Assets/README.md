@@ -146,10 +146,76 @@ Some commonly used ISO 5807 symbols
 
 ![Task](https://github.com/elyse502/printf/assets/125453474/57a83e2f-0f9b-4e3a-bee0-013fe091513a)
 
+## An Example
+Let’s think about Foundation task, and include a flowchart example for it:
+
+The task instructions are as follows:
+
+Write a function that draws a straight line in the terminal.
+* Prototype: void print_line(int n);
+* You can only use `_putchar` function to print
+* Where `n` is the number of times the character `_` should be printed
+* The line should end with a `\n`
+* If `n` is 0 or less, the function should only print `\n`
+
+Take a moment to write out a solution in pseudo-code.
 
 
 
 
+
+…
+
+
+
+No, really. It’s good practice. :)
+
+
+
+…
+
+
+
+Okay. Below is what I came up with.
+1. Set a variable equal `n` (`int nCopy`)
+2. Set up a while loop (condition: `nCopy` is greater than 0)
+3. Print `-`
+4. Decrease `nCopy` by 1
+5. Print `\n`
+
+Now, using the ISO 5807 symbols from the table above, draw out a flowchart for this function.
+
+
+
+…
+
+
+
+No peeking!
+
+
+
+…
+
+
+
+
+Alright, does your flowchart look similar to the diagram below?
+
+<img width="639" alt="fb82e24f7282c569aed3" src="https://github.com/elyse502/printf/assets/125453474/e43bdbeb-0bc0-47e1-b4b1-54b5c41b39d8">
+
+## Bonus Info
+Some good uses of flowcharts:
+* Create a flowchart before coding a task to either help create or validate pseudo-code
+* Add to a README.md to visually show how your project/process works
+* Use in a presentation to aide audience understanding
+* Your function or process is not working as expected? Create a flowchart of how it CURRENTLY is. Then, walk through the chart with some example input.
+
+A flowchart can be as high-level or as detailed as you want. For example, you could break the flowchart above down further to include what is happening in memory. You can even create flowcharts from your everyday non-technical experiences. Choosing a movie or a place to eat could be displayed as a flow-chart!
+
+A helpful tool to create flowcharts is [draw.io](https://app.diagrams.net/). There are premade symbols for you to use and your diagrams can be saved to your Google Drive.
+
+For more information on Flowcharts and related diagrams, a google search with simply “flowchart” can get you started. ;)
 
 
 
