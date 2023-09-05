@@ -257,7 +257,7 @@ Write your own `printf` function.
 
 ![printf](https://github.com/elyse502/printf/assets/125453474/644c33e9-99b4-4805-9291-64dd02017393)
 
-^ _In this picture, [`Kris`](https://twitter.com/i/flow/login?redirect_after_login=%2Fkrisbredemeier), and [`Jul`](https://twitter.com/i/flow/login?redirect_after_login=%2Fcyrjulien)_
+^ _In this picture, [`Kris`](https://twitter.com/krisbredemeier), and [`Jul`](https://twitter.com/cyrjulien)_
 
 # Resources🏗️
 ### Read or watch:
