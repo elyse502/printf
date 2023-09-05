@@ -447,17 +447,48 @@ alex@ubuntu:~/c/printf$ ./a.out
 Best\x0ASchool
 alex@ubuntu:~/c/printf$
 ```
+## 6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print: [printf](https://github.com/elyse502/printf)
+Handle the following conversion specifier: `p`.
+* You don’t have to handle the flag characters
+* You don’t have to handle field width
+* You don’t have to handle precision
+* You don’t have to handle the length modifiers
 
+## 7. The big print gives and the small print takes away: [printf](https://github.com/elyse502/printf)
+Handle the following flag characters for non-custom conversion specifiers:
+* `+`
+* space
+* `#`
 
+## 8. Sarcasm is lost in print: [printf](https://github.com/elyse502/printf)
+Handle the following length modifiers for non-custom conversion specifiers:
+* `l`
+* `h`
 
+Conversion specifiers to handle: `d`, `i`, `u`, `o`, `x`, `X`
 
+## 9. Print some money and give it to us for the rain forests: [printf](https://github.com/elyse502/printf)
+Handle the field width for non-custom conversion specifiers.
 
+## 10. The negative is the equivalent of the composer's score, and the print the performance: [printf](https://github.com/elyse502/printf)
+Handle the precision for non-custom conversion specifiers.
 
+## 11. It's depressing when you're still around and your albums are out of print: [printf](https://github.com/elyse502/printf)
+Handle the `0` flag character for non-custom conversion specifiers.
 
+## 12. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection: [printf](https://github.com/elyse502/printf)
+Handle the `-` flag character for non-custom conversion specifiers.
 
+## 13. Print is the sharpest and the strongest weapon of our party: [printf](https://github.com/elyse502/printf)
+Handle the following custom conversion specifier:
+* `r` : prints the reversed string
 
+## 14. The flood of print has turned reading into a process of gulping rather than savoring: [printf](https://github.com/elyse502/printf)
+Handle the following custom conversion specifier:
+* `R`: prints the rot13'ed string
 
-
+## 15. *: [printf](https://github.com/elyse502/printf)
+All the above options work well together.
 
 
 
