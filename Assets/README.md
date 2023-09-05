@@ -283,7 +283,7 @@ Write your own `printf` function.
 ```
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 ```
-* As a consequence, be careful not to push any c file containing a `main` function in the root directory of your project (you could have a `test` folder containing all your tests files including main functions)
+* As a consequence, be careful not to push any c file containing a `main` function in the root directory of your project (you could have a `test` folder containing all your tests files including `main` functions)
 * Our main files will include your main header file (`main.h`): `#include main.h`
 * You might want to look at the gcc flag `-Wno-format` when testing with your `_printf` and the standard `printf`. Example of test file that you could use:
 ```
@@ -363,7 +363,21 @@ alex@ubuntu:~/c/printf$
 * We strongly encourage you to work all together on a set of tests
 * If the task does not specify what to do with an edge case, do the same as `printf`
 
-
+# Tasks📃
+## 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life: [printf](https://github.com/elyse502/printf)
+A function that produces output according to a format.
+* Prototype: `int _printf(const char *format, ...);`
+* Returns: the number of characters printed (excluding the null byte used to end output to strings)
+* write output to stdout, the standard output stream
+* `format` is a character string. The format string is composed of zero or more directives. See `man 3 printf` for more detail. You need to handle the following conversion specifiers:
+    * `c`
+    * `s`
+    * `%`
+You don’t have to reproduce the buffer handling of the C library `printf` function
+You don’t have to handle the flag characters
+You don’t have to handle field width
+You don’t have to handle precision
+You don’t have to handle the length modifiers
 
 
 
